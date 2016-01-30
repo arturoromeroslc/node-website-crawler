@@ -1,0 +1,19 @@
+{
+    "name": "node-scrape-rpmsolutions",
+    "version": "1.0.0",
+    "description": "scrape rpmsolutions websites for data ",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "arturo romero",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^0.19.0",
+        "express": "^4.13.4",
+        "json2csv": "^3.1.0",
+        "request": "^2.69.0",
+        "async": "^1.5.2"
+    }
+}
